@@ -1,17 +1,42 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "name": "Integrating Geolocation in Mobile Apps",
+    "description": "Learn how to add geolocation features to mobile apps, handle user permissions, and optimize battery usage."
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "name": "Creating Dynamic Web Applications",
+    "description": "Explore full stack development with Node.js, Express, and React, including RESTful APIs and user authentication."
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "name": "Optimizing Mobile App Performance",
+    "description": "Techniques for improving the performance of mobile applications through efficient coding and resource management."
+  },
+  {
+    "name": "Introduction to DevOps",
+    "description": "A primer on DevOps practices, tools, and how they streamline software development and deployment processes."
+  },
+  {
+    "name": "Building Scalable Web Services",
+    "description": "Strategies for designing and implementing scalable web services using microservices architecture."
+  },
+  {
+    "name": "Cybersecurity Best Practices",
+    "description": "Key cybersecurity measures every developer should implement to protect applications from threats."
+  },
+  {
+    "name": "Database Optimization Techniques",
+    "description": "Tips for optimizing database performance, including indexing, query optimization, and schema design."
+  },
+  {
+    "name": "Introduction to Machine Learning",
+    "description": "An overview of machine learning concepts and how to integrate ML models into your applications."
+  },
+  {
+    "name": "API Design Principles",
+    "description": "Best practices for designing robust and user-friendly APIs for your applications."
+  },
+  {
+    "name": "Continuous Integration and Continuous Deployment",
+    "description": "The importance of CI/CD pipelines and how to set them up for automated testing and deployment."
   }
 ]
