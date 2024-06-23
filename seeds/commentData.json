@@ -1,0 +1,24 @@
+[
+    {
+      "content": "This project is amazing!",
+      "user_id": 1,
+      "project_id": 1
+    },
+    {
+      "content": "Great work on this project.",
+      "user_id": 2,
+      "project_id": 1
+    },
+    {
+      "content": "Looking forward to seeing more updates.",
+      "user_id": 3,
+      "project_id": 2
+    },
+    {
+      "content": "This project has a lot of potential.",
+      "user_id": 1,
+      "project_id": 2
+    }
+]
+ 
+  

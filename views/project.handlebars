@@ -3,37 +3,35 @@
     <h2>{{name}}</h2>
     <p>{{description}}</p>
     <p>Posted by {{user.name}} on {{format_date date_created}}</p>
+        <input type="hidden" id="projectId" value="{{id}}">
   </div>
   <div class="col-md-7">
-    <p>
-      {{description}}
-    </p>
-
-    {{#if logged_in}}
-    <div class="comment-form mt-4">
-      <h4>Leave a Comment</h4>
-      <form id="commentForm">
-        <div class="form-group">
-          <textarea class="form-control" id="commentText" rows="3" placeholder="Enter your comment"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-
-    <div class="comments mt-4">
-      <h4>Comments</h4>
-      <div id="commentsList">
-        {{#each comments}}
-        <div class="comment mb-3">
-          <p><strong>{{this.user.name}}</strong> on {{format_date this.date_created}}</p>
-          <p>{{this.comment_text}}</p>
-        </div>
-        {{/each}}
-      </div>
-    </div>
-    {{else}}
-    <a href="/login">Login to leave a comment!</a>
-    {{/if}}
-
+    <p>{{description}}</p>
   </div>
 </div>
+
+{{#if logged_in}}
+<div class="comment-form mt-4">
+  <h4>Leave a Comment</h4>
+  <form id="commentForm">
+    <div class="form-group">
+      <textarea class="form-control" id="commentText" rows="3" placeholder="Enter your comment"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="comments mt-4">
+  <h4>Comments</h4>
+  <div id="commentsList">
+    {{#each comments}}
+    <div class="comment mb-3">
+      <p><strong>{{user.name}}</strong> on {{format_date date_created}}</p>
+      <p>{{comment_text}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>
+{{else}}
+<a href="/login">Login to leave and view comments!</a>
+{{/if}}
